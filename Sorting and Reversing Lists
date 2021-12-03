@@ -1,0 +1,17 @@
+Sorting and Reversing Lists
+
+#put in alphabetical order
+colors = ['blue', 'red', 'yellow', 'green']
+print(colors.sort())
+
+#Reverse alphabetical order
+colors = ['blue', 'red', 'yellow', 'green']
+print(colors.sort(reverse=True))
+
+#Just reverse order
+colors = ['blue', 'red', 'yellow', 'green']
+print(colors.reverse())
+
+#Sorting without changing the list for good
+colors = ['blue', 'red', 'yellow', 'green']
+print(sorted(colors))
