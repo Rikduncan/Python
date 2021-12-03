@@ -1,0 +1,7 @@
+Reading Command Line Arguments
+
+#Reading information about the file you are working on
+
+import sys
+
+print("The name of our file is:", (sys.argv[0]))
