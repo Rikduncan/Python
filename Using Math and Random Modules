@@ -1,0 +1,15 @@
+Using Math and Random Modules
+
+#Math has tons of operations and we can't list them all out here like mentioned during the lecture
+
+import math
+
+num = int(input("Please enter your favorite number, and  we will tell you the square root: "))
+print(math.sqrt(num))
+
+
+#Random
+
+import random
+
+print("Print a random integer between 0 and 500:", random.randint(0, 500))
