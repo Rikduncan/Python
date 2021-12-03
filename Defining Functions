@@ -1,0 +1,8 @@
+Defining Functions
+
+#Creating some functions
+
+def my_first():
+    print("This is my first function")
+
+my_first()
