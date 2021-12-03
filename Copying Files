@@ -1,0 +1,15 @@
+Copying Files
+
+#   shutil - don't forget to import the module
+import shutil
+
+shutil.copy(src, dst)
+
+#   Copies and metadata
+
+shutil.copystat(src, dst)
+
+import shutil
+src = "SourceFile.txt"
+dst = "DestinationFile.txt"
+shutil.copy(src, dst)
