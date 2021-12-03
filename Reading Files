@@ -1,0 +1,16 @@
+Reading Files
+
+#Don't forget about the path where the file will be saved if creating a new one
+#Don't forget about the path where the file will be searched for when opening a file
+
+# r - Opens a file in Read Only mode
+# w - Opens a file that allows Write-level access
+# a - Opens file in Append mode
+
+x = open("filename.txt", 'r')
+print(x.readline())
+x.close()
+
+#Creating a new file
+
+b = open("FileNameHere.txt", 'x')
