@@ -1,0 +1,9 @@
+Slicing Lists
+
+#slicing starting at index 1, up to index 8, counting by 2
+nums = [1, 2, 3, 4, 5, 6, 7, 8]
+print(nums[1:8:2])
+
+#slicing starting at index 0, up to index, counting by 1 (default count)
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+print(nums[0:9])
