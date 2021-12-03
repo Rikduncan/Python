@@ -1,0 +1,14 @@
+Working with For Loops
+
+employees = ['Mark', 'Lisa', 'John', 'Dave']
+for x in employees:
+    print(x)
+
+
+#Using a for loop to print a range
+
+for y in range(25):
+    print(y)
+
+for b in range(0, 100, 5):
+    print(b)
