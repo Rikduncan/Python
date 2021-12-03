@@ -1,0 +1,15 @@
+Merging Emails
+
+#Will need the Names.txt file with a few names entered
+#Will need the Message.txt flie with a message inside the file
+
+with open("Names.txt", 'r') as name_file:
+    with open("Message.txt", 'r') as message_file:
+
+              body = message_file.read()
+              for name in name_file:
+                  mail = "Hey " + name + body
+                  with open(name.strip() +".txt", 'w') as message_file:
+                      message_file.write(mail)
+
+#Should create however many files are in the Names.txt file and put the message from Message.txt in each new file created.
