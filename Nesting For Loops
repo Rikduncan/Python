@@ -1,0 +1,11 @@
+Nesting For Loops
+
+# Should print the numbers once, with all the letters listed below
+
+nums = [1, 2, 3]
+letters = ['a', 'b', 'c', 'd']
+
+for x in nums:
+    print(x)
+    for y in letters:
+        print(y)
