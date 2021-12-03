@@ -1,0 +1,14 @@
+Keyword and Positional Arguments
+
+#Like on the slides
+
+def greet(name, msg="How are you today?"):
+    print("Hey", name + ", " + msg)
+
+# 2 keyword
+
+greet(name="Dave", msg="What's going on today?")
+
+#1 positional, 1 keyword
+
+greet("Dave", msg = "How you doin?")
