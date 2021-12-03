@@ -1,0 +1,18 @@
+Default Arguments
+
+#Same on that is on the slide
+
+def student(firstname, lastname="Bigger", major="IT"):
+    print(firstname, lastname, "majors in", major)
+
+#1 argument
+
+student("Tony")
+
+#2 arguements
+
+student("Stan", "Lee")
+
+#3 arguments
+
+student("Tony", "Stark", "physics
